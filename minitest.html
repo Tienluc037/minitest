@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Mini Test</title>
+</head>
+<body>
+<p id = "result" ></p>
+<!--câu1:
+- câu lệnh nào để hiển thi một hộp thoại: alert('')
+- nêu cú pháp hiển thị tên bạn lên hộp thoại: alert('Nguyễn Tiến Lực')
+
+câu2: câu lệnh nào để nhận giá trị số từ hộp thoại. alert('') + value
+- Viết code nhận giá trị từ hộp thoại, hiển thị bình phương của số đó ra hộp thoại.
+<script>
+    let number = parseInt(prompt('number'))
+    alert('number * number')
+</script>
+câu 3: Câu lệnh nào nhận vào giá trị từ ô input.
+let val = document.getElementById('ID').value
+
+Viết code nhận a và b từ 2 ô input và hiển thị S = a*b ra thẻ h1.
+<p id = "result" > <h1></h1></p
+<script>
+let a = document.getElementById('number1').value
+let b = document.getElementById('number2').value
+let s = a * b
+    document.getElementById('result').innerHTML=s
+</script>
+câu 4: viết chương trình nhập vào ô input, hiện kết quả ra thẻ p:
+a, nhập vào a, hiển thị ra chu vi và diện tích và hình vuông độ dài cạnh a.
+
+b, nhập vào a và b. tính a^2, a^b -->
+<script>
+    //tính a^2
+    let a = parseInt(prompt('Nhập số a:'))
+    alert(a**2)
+//tính a^b
+    let b = parseInt(prompt('Nhập số b:'))
+     alert(a*b)
+</script>
+C, nhập vào a và b tính tổng cá số từ a tới b.
+
+<script>
+    let a = +prompt("Nhập số a")
+    let b = +prompt("Nhập số b")
+  let tong = 0
+    for ( let i = a; i<= b ; i++) {
+        tong= tong+i;
+    } document.getElementById('result').innerHTML= tong
+</script>
+d/ nhập vào a năm in ra thế kỷ.
+<script>
+    let a = +prompt('nhập a:')
+    alert(a/100)
+</script>
+</body>
+</html>
